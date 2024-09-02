@@ -5,8 +5,18 @@ Created on Sun Dec  8 12:47:38 2013
 @author: rj
 """
 
-# Each element is (name, semi-major axis (AU), eccentricity, orbit class)
-# source: http://ssd.jpl.nasa.gov/sbdb_query.cgi
+"""
+Each element is (name, semi-major axis (AU), eccentricity, orbit class)
+
+   The original source was: http://ssd.jpl.nasa.gov/sbdb_query.cgi
+   which is no longer available.
+
+   JV includes the data as part of     
+
+      2014_fall_ASTR599/notebooks/02_advanced_data_structures.ipynb
+
+    around line 71.
+"""
 
 Asteroids = [('Eros', 1.457916888347732, 0.2226769029627053, 'AMO'),
              ('Albert', 2.629584157344544, 0.551788195302116, 'AMO'),
